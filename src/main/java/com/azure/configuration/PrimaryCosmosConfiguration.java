@@ -24,7 +24,7 @@ public class PrimaryCosmosConfiguration {
     private static final String DATABASE2 = "primary_database2";
 
     @Bean
-    @ConfigurationProperties(prefix = "azure.cosmosdb.primary")
+    @ConfigurationProperties(prefix = "azure.cosmos.primary")
     public CosmosDbProperties primary() {
         return new CosmosDbProperties();
     }

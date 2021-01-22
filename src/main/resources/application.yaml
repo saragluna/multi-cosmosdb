@@ -1,0 +1,8 @@
+azure:
+  cosmos:
+    primary:
+      uri: $(primary-database-uri)
+      key: $(primary-database-key)
+    secondary:
+      uri: $(secondary-database-uri)
+      key: $(secondary-database-key)
